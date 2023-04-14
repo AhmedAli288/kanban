@@ -826,5 +826,63 @@ input:checked + .toggle-slider::before {
 }
 
 
-
 /* Card CSS */
+/*  */
+/*  */
+/*  */
+/* Chart CSS */
+
+.canva-heading{
+  font-weight: bolder;
+  text-align: center;
+  cursor: pointer;
+}
+
+.canva-heading:hover{
+  color: #635FC7;
+  text-decoration: underline;
+}
+
+.canvasjs-chart-canvas{
+  width:80%;
+}
+
+.chart-ul{
+  margin-top: 15%;
+  width:20%;
+}
+
+.legend {
+  bottom: 0;
+  left: 0;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.completed-color {
+  width: 15px;
+  height: 15px;
+  background-color: #4f81bc;
+}
+
+.not-completed-color {
+  width: 15px;
+  height: 15px;
+  background-color: #c0504e;
+}
+
+@media all and (max-width: 500px) {
+  .canvasjs-chart-canvas{
+    width:70%;
+  }
+  .chart-ul{
+    width:25%;
+  }
+}
+/* Chart CSS */
