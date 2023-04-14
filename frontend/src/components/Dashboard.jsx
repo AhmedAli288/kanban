@@ -57,9 +57,6 @@ function Dashboard() {
       });
 
       const options = {
-        // title: {
-        //   text: `Board: ${board.name}`
-        // },
         data: [
           {
             type: 'pie',
